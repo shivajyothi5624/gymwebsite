@@ -1,0 +1,111 @@
+*
+{
+  font-family: 'Baloo 2', cursive;
+}
+body{
+  font-family: 'Baloo 2', cursive;
+  margin: 0px;
+  padding: 0px;
+  background: url('../img/bg2.jpg') no-repeat center center/cover;
+  /* background-position: center center; */
+  color: white;
+}
+
+.left{
+   
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 20px; 
+    text-align: center;
+}
+.left img{
+  width: 66px;
+}
+.left p span{
+  color: rgb(253, 218, 21);
+}
+.left p{
+  line-height: 0px;
+  margin: 15px 0px;
+  font-size: 37px;
+}
+.right{
+   
+    display: inline-block;
+  position:absolute;
+  right: 34px;
+  top: 20px; 
+  width: 162px;
+}
+.right button{
+  cursor: pointer;
+    font-size: 16px;
+    margin-right: 7px;
+    color: black;
+    border-radius: 10px;
+    font-family: "Baloo 2", cursive;
+}
+.right button:hover{
+  background-color: rgb(204, 203, 150);
+}
+.mid{
+  
+  width: 43%;
+  display: block;
+  margin: 20px auto;
+ 
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  padding-left:15px ;
+}
+ul li a:hover, ul li a.active{
+  text-decoration: underline;
+  color: rgb(131, 176, 187);
+}
+.container{
+  border: 3px solid rgb(255 255 255);
+  border-radius: 29px;
+  width: 30%;
+  margin: 96px 147px;
+}
+.container h1{
+  text-align: center;
+  font-size: 35px;
+}
+.formgroup  input{
+  text-align: center;
+    margin: 4px 1px;
+    padding: 2px 41px;
+    width: 56%;
+    background-color: #f3ebfa;
+    border-radius: 10px;
+    color: black;
+    background-color:white;
+
+}
+.container h1 span{
+  color: rgb(253, 218, 21);
+  text-decoration: solid;
+}
+.formgroup{
+  text-align: center;
+}
+.formgroup button{
+  margin: 10px auto;
+  width: 74%;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  background-color: black;
+  color: white;
+}
+.formgroup button:hover{
+  background-color: rgb(61, 90, 88);
+}
